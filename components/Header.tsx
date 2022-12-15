@@ -3,10 +3,14 @@ import Link from "next/link";
 const Header = () => {
   return (
     <header>
-      <nav className="px-2 sm:px-4 md:py-5 container mx-auto">
+      <nav className="px-2 py-4 container mx-auto">
         <a
           href="/"
-          className="no-underline text-xl md:text-2xl lg:text-4xl text-slate-900 hover:text-slate-700"
+          className={`no-underline 
+            text-2xl lg:text-4xl
+             text-teal-500 hover:text-teal-400
+            text-center font-bold
+            `}
         >
           yuta0709
         </a>

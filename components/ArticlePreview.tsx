@@ -8,7 +8,7 @@ type Props = {
 
 const ArticlePreview: FC<Props> = ({ article }) => {
   return (
-    <a href={`/${article.slug}`} className="no-underline">
+    <a href={`/${article.slug}`} className="no-underline text-xl">
       <div className="py-8">
         <div className="text-slate-900">{article.title}</div>
         <div className="text-slate-600">{article.date}</div>
