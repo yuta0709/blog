@@ -6,8 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      sans: ["ui-sans-serif", "system-ui", "Noto Sans"],
+    },
   },
-  plugins: [
-    require("@tailwindcss/typography")
-  ],
+  plugins: [require("@tailwindcss/typography")],
 };
