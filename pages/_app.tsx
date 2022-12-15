@@ -5,7 +5,7 @@ import Header from "../components/Header";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <div className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-screen font-sans">
         <Header />
         <Component {...pageProps} />
         <footer className="text-center text-gray-500">
