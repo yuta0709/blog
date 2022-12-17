@@ -28,8 +28,8 @@ const Article: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
       <ReactMarkdown
         remarkPlugins={[remarkGfm, remarkMath]}
         rehypePlugins={[rehypeKatex]}
-        className={`mx-auto prose prose-smlg:prose-xl prose-slate
-          prose-a:text-blue-400 
+        className={`mx-auto prose prose-sm lg:prose-xl prose-slate
+          prose-a:text-blue-400
           prose-headings:text-blue-900
           prose-hr:border-0 prose-hr:bg-gray-400 prose-hr:h-px
           
